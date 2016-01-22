@@ -1,0 +1,18 @@
+{
+    "contents" : "cachemean <- function(x, ...) {\n    m <- x$getmean()\n    if(!is.null(m)) {\n        message(\"getting cached data\")\n        return(m)\n    }\n    data <- x$get()\n    m <- mean(data, ...)\n    x$setmean(m)\n    m\n}",
+    "created" : 1453396554855.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "771731225",
+    "id" : "AA204CD7",
+    "lastKnownWriteTime" : 1453476501,
+    "path" : "F:/Mijn Documenten/Coding Stuffs/Coursera/ProgrammingAssignment2/ProgrammingAssignment2/cachemean.R",
+    "project_path" : "cachemean.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

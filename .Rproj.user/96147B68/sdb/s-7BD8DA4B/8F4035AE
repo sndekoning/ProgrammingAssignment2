@@ -1,0 +1,18 @@
+{
+    "contents" : "#part 1\n##inputs for square matrix\nx = 1:9 #data\nr = 3 #rows\nc = 3 #columns\n##function\nrandommatrix<-function(x) {\n    matrix(x, 3, 3)          }\nf(x)\n\n#part 2: inverse above sq. matrix\ng<-function(y){\n    solve(f(x))\n}\ng(y)",
+    "created" : 1453478408299.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1947228979",
+    "id" : "8F4035AE",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
